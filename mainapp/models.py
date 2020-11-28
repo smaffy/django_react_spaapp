@@ -29,6 +29,8 @@ class BlogPostManager(models.Manager):
 
     def find_by_title_in_qs(self, post_title):
         return self.get_queryset().find_by_title_in_qs(post_title)
+    # BlogPost.objects.all().find_by_title_in_qs('net')
+    # BlogPost.objects.find_by_title_in_qs('net')
 
 
 class BlogPost(models.Model):
