@@ -23,6 +23,7 @@ urlpatterns = [
     path('admin/', admin.site.urls),
     path('api/', include('mainapp.api.urls')),
 
+    path('blogpost/<int:id>/', views.post_detail),
     path('category/<int:id>/', views.category_detail),
     path('', views.index),
 
