@@ -1,2 +1,13 @@
 # Project exclude paths
 /venv/
+
+/media/uploads/
+/media/cache/
+/staticfiles/
+/static/
+
+*.pyc
+__pycache
+/Pipfile
+/Pipfile.lock
+db.sqlite3
