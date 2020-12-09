@@ -1,4 +1,12 @@
+react + django spa app
+
+run from:
     
+    manage.py runserver
+
+************************************
+
+
     sudo apt install nodejs
     sudo apt install npm
     
@@ -15,22 +23,6 @@
     npm install axios
     
     npm install --save bootstrap
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
     
